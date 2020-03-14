@@ -29,3 +29,13 @@ hobbies.splice(2, 1);
 hobbies.splice(3, 0, 'Gaming');
 
 console.log(hobbies);
+
+//selecting ranges and copying
+const results = [1, 2, 4, 3.5, 7.2];
+const results2 = results.slice();
+results.push(9);
+const results3 = results.slice(0, 4);
+
+console.log(results);
+console.log(results2);
+console.log(results3);
