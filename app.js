@@ -10,3 +10,22 @@ console.log(moreNumber);
 console.log(evenMoreNumbers);
 console.log(yetMoreNumbers);
 console.log(convertedArray);
+
+//adding and removing elements
+const hobbies = ['sport', 'cooking'];
+hobbies.push('reading'); //returns length of the array
+hobbies.unshift('coding'); //returns the length of the array
+hobbies.pop(); //returns the popped value
+hobbies.shift(); //returns the shifted value
+
+console.log(hobbies);
+
+hobbies[1] = 'Coding';
+hobbies[4] = 'Reading';
+
+console.log(hobbies);
+
+hobbies.splice(2, 1);
+hobbies.splice(3, 0, 'Gaming');
+
+console.log(hobbies);
