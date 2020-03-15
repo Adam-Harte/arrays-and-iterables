@@ -73,3 +73,15 @@ const taxAdjustedPricesMap = prices.map((price, index) => {
 });
 
 console.log(taxAdjustedPricesMap);
+
+//sorting and reversing
+const sortedPrices = prices.sort((a, b) => {
+  if (a > b) {
+    return 1;
+  } else if (a === b) {
+    return 0;
+  } else {
+    return -1;
+  }
+});
+console.log(sortedPrices.reverse());
