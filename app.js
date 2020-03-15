@@ -111,3 +111,12 @@ console.log(names);
 console.log(copiedNames);
 console.log(Math.min(...numbers));
 console.log(Math.max(...numbers));
+
+//array destructuring
+const [first, second, third] = names;
+console.log(first);
+console.log(second);
+console.log(third);
+
+const [nameOne, nameTwo, ...otherNames] = names;
+console.log(otherNames);
