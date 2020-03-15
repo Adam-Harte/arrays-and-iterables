@@ -94,3 +94,12 @@ console.log(filteredPrices);
 //reduce
 const summedPrices = prices.reduce((prev, cur) => prev + cur, 0);
 console.log(summedPrices);
+
+//split and join
+const data = 'London;15/03/2020';
+const transformedData = data.split(';');
+console.log(transformedData);
+
+const names = ['Adam', 'Neil', 'Owen'];
+const joinedNames = names.join(', ');
+console.log(joinedNames);
