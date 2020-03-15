@@ -65,3 +65,11 @@ prices.forEach(price => {
 });
 
 console.log(taxAdjustedPrices);
+
+//transforming data
+const taxAdjustedPricesMap = prices.map((price, index) => {
+  const priceObj = { idx: index, price: price * (1 + tax) };
+  return priceObj;
+});
+
+console.log(taxAdjustedPricesMap);
