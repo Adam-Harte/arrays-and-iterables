@@ -120,3 +120,16 @@ console.log(third);
 
 const [nameOne, nameTwo, ...otherNames] = names;
 console.log(otherNames);
+
+//sets
+const ids = new Set([1, 2, 3]);
+console.log(ids.has(2));
+ids.add(4);
+ids.delete(2);
+
+for (const entry of ids.entries()) {
+  console.log(entry);
+  console.log(entry[0]);
+}
+
+ids.clear();
