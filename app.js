@@ -85,3 +85,8 @@ const sortedPrices = prices.sort((a, b) => {
   }
 });
 console.log(sortedPrices.reverse());
+
+//filtering
+const filteredPrices = prices.filter(price => price > 6);
+
+console.log(filteredPrices);
