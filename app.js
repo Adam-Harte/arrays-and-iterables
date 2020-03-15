@@ -103,3 +103,11 @@ console.log(transformedData);
 const names = ['Adam', 'Neil', 'Owen'];
 const joinedNames = names.join(', ');
 console.log(joinedNames);
+
+//array spreading
+const copiedNames = [...names];
+names.push('Albert');
+console.log(names);
+console.log(copiedNames);
+console.log(Math.min(...numbers));
+console.log(Math.max(...numbers));
