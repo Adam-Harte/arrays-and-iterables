@@ -39,3 +39,8 @@ const results3 = results.slice(0, 4);
 console.log(results);
 console.log(results2);
 console.log(results3);
+
+//adding arrays to arrays
+const newResult = results.concat(results2, results3);
+
+console.log(newResult);
