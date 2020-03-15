@@ -51,3 +51,6 @@ console.log(results.lastIndexOf(2));
 const persons = [{ name: 'Adam' }, { name: 'Neil' }, { name: 'Owen' }];
 console.log(persons.find(person => person.name === 'Neil'));
 console.log(persons.findIndex(person => person.name === 'Owen'));
+
+//includes
+console.log(results.includes(7.2));
