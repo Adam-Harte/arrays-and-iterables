@@ -154,5 +154,15 @@
       objects is the key can be any data type so you can have an array or object
       as a key in a Map for example.
     </p>
+    <h3>Weak Sets and Maps</h3>
+    <p>
+      The weakSet and weakMap are stripped down versions of Set and Map and can
+      only take in objects as data. They also have limited methods only for
+      adding or removing items as these data types are not used to get all data
+      like with the entries method and take in only objects so that they can be
+      garbage collected. Weak Sets and Maps are a leaner more performant version
+      of Sets and Maps if your use case only requires their limited
+      functionality.
+    </p>
   </body>
 </html>
