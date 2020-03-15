@@ -54,3 +54,14 @@ console.log(persons.findIndex(person => person.name === 'Owen'));
 
 //includes
 console.log(results.includes(7.2));
+
+//forEach
+const prices = [10.99, 2.99, 5.99];
+const tax = 0.19;
+const taxAdjustedPrices = [];
+
+prices.forEach(price => {
+  taxAdjustedPrices.push(price * (1 + tax));
+});
+
+console.log(taxAdjustedPrices);
