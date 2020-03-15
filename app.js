@@ -31,7 +31,7 @@ hobbies.splice(3, 0, 'Gaming');
 console.log(hobbies);
 
 //selecting ranges and copying
-const results = [1, 2, 4, 3.5, 7.2];
+const results = [1, 2, 4, 3.5, 7.2, 2];
 const results2 = results.slice();
 results.push(9);
 const results3 = results.slice(0, 4);
@@ -44,3 +44,10 @@ console.log(results3);
 const newResult = results.concat(results2, results3);
 
 console.log(newResult);
+
+//finding indexes and element values
+console.log(results.indexOf(2));
+console.log(results.lastIndexOf(2));
+const persons = [{ name: 'Adam' }, { name: 'Neil' }, { name: 'Owen' }];
+console.log(persons.find(person => person.name === 'Neil'));
+console.log(persons.findIndex(person => person.name === 'Owen'));

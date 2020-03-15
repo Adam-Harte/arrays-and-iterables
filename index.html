@@ -51,5 +51,16 @@
       array. It takes arguments for what arrays to add and then returns a new
       array as the result hence making it immutable.
     </p>
+    <h3>Finding Indexes and Element Values</h3>
+    <p>
+      The indexOf and lastIndexOf methods allows us to get the index of the
+      first matching value in the array based on the passed argument. This will
+      work for primitve values but not reference values as for example a passed
+      object as an argument is not the same address in memory as the object
+      array element value. We also have the find and findIndex methos which take
+      a callback function that gets executed on every array element and the
+      return should be a boolean based on what you want to find. -1 is returned
+      if no matching element value is found.
+    </p>
   </body>
 </html>
